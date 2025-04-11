@@ -22,3 +22,11 @@ pip install socket
 pip install threading
 pip install queue
 pip install time
+```
+## 🚨 But here are a few things to watch out for:
+Raw Sockets (for OS detection):
+On Windows, you must run it as Administrator.
+On Linux/Mac, you must use sudo python3 scanner.py.
+Firewall / Antivirus:
+Can block the scanner or cause some open ports to look closed.
+May flag the script, especially if packaged into an .exe.
